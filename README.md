@@ -71,21 +71,7 @@ The following diagram illustrates the platform-level integration of the SIL modu
 
 The SIL module operates alongside the base algorithm training process. It manages its own experience collection, filtering, replay storage, and additional policy and value updates while sharing the Actor–Critic networks of the base algorithm.
 
-## SIL Framework
 
-The framework separates SIL into several modular stages:
-
-1. episodic experience collection;
-2. Monte Carlo return calculation;
-3. SIL experience filtering;
-4. replay-buffer storage;
-5. base Actor–Critic updates;
-6. configurable SIL update intervals;
-7. repeated SIL policy and value updates.
-
-![Modular SIL framework](figures/sil_framework.png)
-
-This structure allows SIL to be integrated into multiple algorithms while maintaining a unified training workflow.
 
 ## SIL Pseudocode
 
@@ -147,20 +133,7 @@ The full research included:
 - generalisation analysis;
 - limitations and future research directions.
 
-## Master’s Thesis
 
-The full thesis contains the complete:
-
-- research background;
-- literature review;
-- methodology;
-- mathematical formulation;
-- implementation details;
-- experimental design;
-- results;
-- analysis;
-- limitations;
-- future work.
 
 **Full thesis available upon request.**
 
@@ -171,7 +144,6 @@ This repository currently provides a concise portfolio presentation of the proje
 - development platform;
 - integration architecture;
 - engineering features;
-- SIL framework;
 - pseudocode;
 - selected experimental results.
 
